@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+form {
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 80%;
+    height: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-radius: 20px;
+    overflow-x: hidden;
+}
+.div1 {
+    height: 100%;
+    width: 40%;
+}
+.div2 {
+    height: 100%;
+    width: 55%;
+    background-image: url(./assets/Daffy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+input {
+    border: 0.1px solid rgba(199, 185, 185, 0.485);
+    height: 25px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+#fileha{
+    width: 95%;
+
+}
+h3 {
+    color: white;
+    margin-top: 15px;
+}
+#Errors {
+    color: red;
+    display: none;
+}
+.submit {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #0FA4AF;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.Main {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 80%;
+    height: 42.5rem;
+    background-color: #0FA4AF;
+    margin-left: -50px;
+    margin-right: 50px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width: 310px;
+    height: 600px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card img {
+    border-radius: 10px;
+}
+#DAFFY{
+    color: white;
+    margin-left: 20%;
+    margin-top: 0;
+    font-size: 3rem;
+    position: relative;
+}
+.divi{
+    margin: 0;
+    width: 100%;
+}
+.dvm{
+    display: flex;
+}
